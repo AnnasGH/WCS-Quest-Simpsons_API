@@ -1,0 +1,80 @@
+.DisplaySimpson {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Simpson {
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    border-radius: 30vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding: 3vh;
+    border: 1vh solid black;
+}
+
+#ImgContainer,
+#TextContainer {
+    width: 50vh;
+    height: 60vh;
+    display: flex;
+    text-size-adjust: center;
+
+}
+
+.img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
+}
+
+#TextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Title {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: cursive;
+    padding: 20px;
+
+}
+
+#SimpsonQuote {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 10px;
+}
+
+#SimpsonName {
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+}
+
+button {
+    text-align: center;
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 1.5vh;
+    background-color: white;
+    border: 0.6vh solid black;
+    border-radius: 5vh;
+}
+
+#button {
+    text-align: center;
+    padding: 3vh;
+}
